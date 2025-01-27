@@ -81,15 +81,3 @@ const sortByDescendingFriendCount = users => {
       //   }
       // ]
       
-
-
-
-
-
-
-
-
-
-// (a, b) => a.localeCompare(b)
-
-// return users.toSorted((a, b) => b.localeCompare(a))

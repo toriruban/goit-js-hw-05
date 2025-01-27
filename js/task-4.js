@@ -1,5 +1,6 @@
 const getTotalBalanceByGender = (users, gender)  => {
     let balance = 0;
+    
 users
      .filter(user => user.gender === gender)
      .forEach(user => { // додаємо баланс кожного користувача до змінної balance
